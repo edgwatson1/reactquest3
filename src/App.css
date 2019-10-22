@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
 }
 
 .App-header {
@@ -16,7 +16,23 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.App-header img {
+  margin-bottom: 20px;
+}
 
 .App-link {
   color: #09d3ac;
+}
+
+.working img {
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
